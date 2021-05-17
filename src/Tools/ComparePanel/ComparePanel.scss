@@ -32,6 +32,7 @@
 
     .remove-all,
     .add-all-pins {
+      display: none;
       cursor: pointer;
       color: $primaryCol;
       text-decoration: none;

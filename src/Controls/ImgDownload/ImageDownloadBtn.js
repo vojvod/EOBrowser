@@ -38,7 +38,7 @@ class ImageDownloadBtn extends Component {
 
     return (
       <div
-        className="img-download-btn-wrapper"
+        className="screenshotPanelButton img-download-btn-wrapper"
         title={title}
         onClick={() => this.onOpenImageDownloadPanel(enabled, title)}
       >

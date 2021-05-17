@@ -268,13 +268,8 @@ function getTiles(
     });
   }
   return new Promise((resolve, reject) => {
-    const bbox = new BBox(
-      CRS_EPSG4326,
-      bounds.getWest(),
-      bounds.getSouth(),
-      bounds.getEast(),
-      bounds.getNorth(),
-    );
+    const rbbox = process.env.REACT_APP_MAP_BBOX.split(',');
+    const bbox = new BBox(CRS_EPSG4326, rbbox[0], rbbox[1], rbbox[2], rbbox[3]);
     searchLayer
       .findTiles(bbox, fromTime, toTime, maxCount, offset)
       .then(response => {

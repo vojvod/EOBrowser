@@ -20,10 +20,11 @@ export const DEFAULT_MODE = {
 };
 
 export const DEFAULT_LAT_LNG = {
-  lat: 41.9,
-  lng: 12.5,
+  lat: 35.30309,
+  lng: 24.27045,
+  zoom: 9,
 };
 
-export const MODES = [EDUCATION_MODE, DEFAULT_MODE];
+export const MODES = [DEFAULT_MODE];
 
 export const EXPIRED_ACCOUNT_DUMMY_INSTANCE_ID = 'expired_account_dummy_instance_id';

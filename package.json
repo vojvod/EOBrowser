@@ -1,7 +1,7 @@
 {
   "name": "eobrowser3",
   "version": "3.0.0",
-  "homepage": ".",
+  "homepage": "http://gis.crete.gov.gr/sdi/eobrowser/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
@@ -12,11 +12,12 @@
     "@mapbox/geojson-area": "^0.2.2",
     "@mapbox/sphericalmercator": "^1.1.0",
     "@mapbox/togeojson": "^0.16.0",
-    "@reduxjs/toolkit": "^1.0.4",
+    "@reduxjs/toolkit": "^1.5.1",
     "@sentinel-hub/sentinelhub-js": "^0.2.47-rc.4",
     "@turf/boolean-point-in-polygon": "^6.0.1",
     "@turf/center": "^6.0.1",
     "@turf/length": "^6.0.2",
+    "awaiter": "0.0.1",
     "client-oauth2": "^4.2.5",
     "escodegen": "^2.0.0",
     "esprima": "^4.0.1",
@@ -68,10 +69,10 @@
     "semiotic": "^1.11.1",
     "terraformer": "^1.0.8",
     "terraformer-wkt-parser": "^1.1.2",
-    "three": "^0.120.1",
+    "three": "^0.127.0",
     "ttag": "^1.7.22",
     "turf-inside": "^3.0.12",
-    "urijs": "^1.18.1"
+    "urijs": "^1.19.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -80,9 +81,9 @@
     "debug-translations": "cross-env REACT_APP_DEBUG_TRANSLATIONS=true react-scripts start",
     "update-previews": "node -r esm ./update-previews.js",
     "test": "react-scripts test",
-    "lint": "eslint --max-warnings 0 --ext .js src/ && stylelint --max-warnings 0 \"src/**/*.css\" \"src/**/*.scss\"",
-    "lint-js": "eslint --max-warnings 0 --ext .js src/",
-    "lint-css": "stylelint --max-warnings 0 \"src/**/*.css\" \"src/**/*.scss\"",
+    "lint": "eslint --max-warnings 20 --ext .js src/ && stylelint --max-warnings 20 \"src/**/*.css\" \"src/**/*.scss\"",
+    "lint-js": "eslint --max-warnings 20 --ext .js src/",
+    "lint-css": "stylelint --max-warnings 20 \"src/**/*.css\" \"src/**/*.scss\"",
     "prettier": "prettier --write \"src/**/*.{js,json}\" && stylelint --fix \"src/**/*.css\" \"src/**/*.scss\"",
     "prettier-js": "prettier --write \"src/**/*.{js,json}\"",
     "prettier-css": "stylelint --fix \"src/**/*.css\" \"src/**/*.scss\"",
@@ -112,7 +113,7 @@
     "stylelint-config-recommended-scss": "^4.1.0",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-scss": "^3.13.0",
-    "ttag-cli": "^1.8.2"
+    "ttag-cli": "^1.9.2"
   },
   "husky": {
     "hooks": {

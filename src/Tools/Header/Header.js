@@ -28,16 +28,12 @@ class HeaderWithLogin extends Component {
             <i className="fa fa-chevron-left" />
           </div>
           <div className="app-title">
-            <ExternalLink className="sgLogo" href="https://www.sentinel-hub.com/">
-              <img src={sgLogo} alt="Sentinel Hub" />
+            <ExternalLink className="sgLogo" href="http://gis.crete.gov.gr/">
+              <img src={sgLogo} alt="gis.crete.gov.gr" />
             </ExternalLink>
             <span>
               EO Browser
-              {process.env.REACT_APP_REPLACE_SERVICES_HOSTNAME && (
-                <div className="replace-services-hostname">
-                  <i className="fa fa-random" /> {process.env.REACT_APP_REPLACE_SERVICES_HOSTNAME}
-                </div>
-              )}
+              <div className="replace-services-hostname">ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ</div>
             </span>
           </div>
         </div>

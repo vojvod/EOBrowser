@@ -144,10 +144,17 @@ class Map extends React.Component {
 
     const zoomConfig = this.getZoomConfiguration(datasetId);
 
+    const rbbox = process.env.REACT_APP_MAP_BBOX.split(',');
+
     return (
       <LeafletMap
         ref={el => (this.mapRef = el)}
-        minZoom={0}
+        minZoom={process.env.REACT_APP_MAP_ZOOM}
+        maxBounds={L.latLngBounds([
+          [rbbox[1], rbbox[0]],
+          [rbbox[3], rbbox[2]],
+        ])}
+        maxBoundsViscosity={1.0}
         onViewportChanged={this.updateViewport}
         center={[this.props.lat, this.props.lng]}
         zoom={this.props.zoom}

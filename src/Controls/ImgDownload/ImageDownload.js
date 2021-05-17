@@ -364,7 +364,7 @@ function ImageDownload(props) {
             text={t`Analytical`}
             className={selectedTab === TABS.ANALYTICAL ? 'selected' : ''}
             onClick={() => setSelectedTab(TABS.ANALYTICAL)}
-            disabled={!isUserLoggedIn}
+            disabled={isUserLoggedIn}
             onDisabledClick={displayLogInToAccessMessage}
           />
 
@@ -372,7 +372,7 @@ function ImageDownload(props) {
             text={t`High-res print`}
             className={selectedTab === TABS.PRINT ? 'selected' : ''}
             onClick={() => setSelectedTab(TABS.PRINT)}
-            disabled={!isUserLoggedIn}
+            disabled={isUserLoggedIn}
             onDisabledClick={displayLogInToAccessMessage}
           />
         </div>

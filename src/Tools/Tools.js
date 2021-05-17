@@ -7,7 +7,7 @@ import { t } from 'ttag';
 import HeaderWithLogin from './Header/Header';
 import SearchPanel from './SearchPanel/SearchPanel';
 import VisualizationPanel from './VisualizationPanel/VisualizationPanel';
-import PinPanel from './Pins/PinPanel';
+// import PinPanel from './Pins/PinPanel';
 import ComparePanel from './ComparePanel/ComparePanel';
 import { Tabs, Tab } from '../junk/Tabs/Tabs';
 import ToolsFooter from './ToolsFooter/ToolsFooter';
@@ -298,17 +298,6 @@ class Tools extends Component {
               count={this.props.newCompareLayersCount}
             >
               <ComparePanel />
-            </Tab>
-            <Tab id="pins-tab" title={t`Pins`} icon="thumb-tack" renderKey={3}>
-              <PinPanel
-                resetSearch={this.resetSearch}
-                setActiveTabIndex={this.setActiveTabIndex}
-                saveLocalPinsOnLogin={this.saveLocalPinsOnLogin}
-                setLastAddedPin={this.props.setLastAddedPin}
-                lastAddedPin={this.props.lastAddedPin}
-                setSelectedPin={this.setSelectedPin}
-                setTimeSpanExpanded={this.setTimeSpanExpanded}
-              />
             </Tab>
           </Tabs>
           <ToolsFooter selectedLanguage={this.props.selectedLanguage} />

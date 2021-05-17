@@ -341,6 +341,16 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: '6_NDVI' },
       { datasourceId: 'S2L1C', layerId: '5_NDVI' },
       { datasourceId: 'S2L2A', layerId: '5_NDVI' },
+      { datasourceId: 'S2L1C', layerId: '5-VEGETATION-INDEX' },
+      { datasourceId: 'S2L2A', layerId: '5-VEGETATION-INDEX' },
+      { datasourceId: 'S2L1C', layerId: '5-NDVI' },
+      { datasourceId: 'S2L2A', layerId: '5-NDVI' },
+      { datasourceId: 'S2L1C', layerId: '6-NDVI' },
+      { datasourceId: 'S2L2A', layerId: '6-NDVI' },
+      { datasourceId: 'S2L1C', layerId: '5-NDVI' },
+      { datasourceId: 'S2L2A', layerId: '5-NDVI' },
+      { datasourceId: 'S2L1C', layerId: '7-NDVI' },
+      { datasourceId: 'S2L2A', layerId: '7-NDVI' },
     ],
     legend: {
       type: 'continuous',
@@ -465,6 +475,8 @@ export const PREDEFINED_LAYERS_METADATA = [
     match: [
       { datasourceId: 'S2L1C', layerId: '4_GREEN-CITY' },
       { datasourceId: 'S2L2A', layerId: '4_GREEN-CITY' },
+      { datasourceId: 'S2L1C', layerId: '4-GREEN-CITY' },
+      { datasourceId: 'S2L2A', layerId: '4-GREEN-CITY' },
     ],
 
     description: () =>
@@ -475,6 +487,8 @@ export const PREDEFINED_LAYERS_METADATA = [
     match: [
       { datasourceId: 'S2L1C', layerId: '3_URBAN-CLASSIFIED' },
       { datasourceId: 'S2L2A', layerId: '3_URBAN-CLASSIFIED' },
+      { datasourceId: 'S2L1C', layerId: '3-URBAN-CLASSIFIED' },
+      { datasourceId: 'S2L2A', layerId: '3-URBAN-CLASSIFIED' },
     ],
 
     description: () =>
@@ -485,6 +499,8 @@ export const PREDEFINED_LAYERS_METADATA = [
     match: [
       { datasourceId: 'S2L1C', layerId: '5_URBAN-LAND-INFRARED-COLOR' },
       { datasourceId: 'S2L2A', layerId: '5_URBAN-LAND-INFRARED-COLOR' },
+      { datasourceId: 'S2L1C', layerId: '5-URBAN-LAND-INFRARED-COLOR' },
+      { datasourceId: 'S2L2A', layerId: '5-URBAN-LAND-INFRARED-COLOR' },
     ],
 
     description: () =>
@@ -497,6 +513,10 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: '4_MOISTURE-STRESS' },
       { datasourceId: 'S2L1C', layerId: '9_MOISTURE-STRESS' },
       { datasourceId: 'S2L2A', layerId: '9_MOISTURE-STRESS' },
+      { datasourceId: 'S2L1C', layerId: '2-NDMI' },
+      { datasourceId: 'S2L2A', layerId: '2-NDMI' },
+      { datasourceId: 'S2L1C', layerId: '5-NDMI' },
+      { datasourceId: 'S2L2A', layerId: '5-NDMI' },
     ],
 
     description: () =>
@@ -512,6 +532,7 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: '2_MOISTURE-INDEX' },
       { datasourceId: 'S2L1C', layerId: '99_MOISTURE-INDEX' },
       { datasourceId: 'S2L2A', layerId: '99_MOISTURE-INDEX' },
+      { datasourceId: 'S2L2A', layerId: '8-MOISTURE-INDEX' },
     ],
     legend: {
       type: 'continuous',
@@ -542,6 +563,8 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: '7-NDWI' },
       { datasourceId: 'S2L1C', layerId: '3_NDWI' },
       { datasourceId: 'S2L2A', layerId: '3_NDWI' },
+      { datasourceId: 'S2L1C', layerId: '3-NDWI' },
+      { datasourceId: 'S2L2A', layerId: '3-NDWI' },
       { datasourceId: 'MODIS', layerId: 'NDWI' },
     ],
     legend: {
@@ -594,6 +617,9 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: 'FALSE-COLOR' },
       { datasourceId: 'S2L1C', layerId: '2_FALSE-COLOR' },
       { datasourceId: 'S2L2A', layerId: '2_FALSE-COLOR' },
+      { datasourceId: 'S2L1C', layerId: '2-FALSE-COLOR' },
+      { datasourceId: 'S2L2A', layerId: '2-FALSE-COLOR' },
+      { datasourceId: 'S2L2A', layerId: '2-COLOR-INFRARED' },
     ],
 
     description: () =>
@@ -632,6 +658,9 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: 'TRUE-COLOR' },
       { datasourceId: 'S2L1C', layerId: '1_TRUE-COLOR' },
       { datasourceId: 'S2L2A', layerId: '1_TRUE-COLOR' },
+      { datasourceId: 'S2L2A', layerId: '1-NATURAL-COLOR' },
+      { datasourceId: 'S2L1C', layerId: '1-TRUE-COLOR' },
+      { datasourceId: 'S2L2A', layerId: '1-TRUE-COLOR' },
     ],
 
     description: () =>
@@ -698,6 +727,9 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: 'FALSE-COLOR-URBAN' },
       { datasourceId: 'S2L1C', layerId: '2_FALSE-COLOR-URBAN' },
       { datasourceId: 'S2L2A', layerId: '2_FALSE-COLOR-URBAN' },
+      { datasourceId: 'S2L1C', layerId: '2-FALSE-COLOR-URBAN' },
+      { datasourceId: 'S2L2A', layerId: '2-FALSE-COLOR-URBAN' },
+      { datasourceId: 'S2L2A', layerId: '3-FALSE-COLOR' },
     ],
 
     description: () =>
@@ -738,6 +770,10 @@ export const PREDEFINED_LAYERS_METADATA = [
     match: [
       { datasourceId: 'S2L1C', layerId: '4_ULYSSYS-WATER-QUALITY-VIEWER' },
       { datasourceId: 'S2L2A', layerId: '4_ULYSSYS-WATER-QUALITY-VIEWER' },
+      { datasourceId: 'S2L1C', layerId: '11_ULYSSYS-WATER-QUALITY-VIEWER' },
+      { datasourceId: 'S2L2A', layerId: '11_ULYSSYS-WATER-QUALITY-VIEWER' },
+      { datasourceId: 'S2L1C', layerId: '99_ULYSSYS-WATER-QUALITY-VIEWER' },
+      { datasourceId: 'S2L2A', layerId: '99_ULYSSYS-WATER-QUALITY-VIEWER' },
     ],
 
     description: () =>
@@ -752,6 +788,10 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: '5_SWIR' },
       { datasourceId: 'S2L1C', layerId: 'SWIR' },
       { datasourceId: 'S2L2A', layerId: 'SWIR' },
+      { datasourceId: 'S2L1C', layerId: '4-SWIR' },
+      { datasourceId: 'S2L2A', layerId: '4-SWIR' },
+      { datasourceId: 'S2L1C', layerId: '6-SWIR' },
+      { datasourceId: 'S2L2A', layerId: '6-SWIR' },
     ],
     titles: () => ({
       [EDUCATION_MODE.id]: `SWIR`,
@@ -769,6 +809,8 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: '8-NDSI' },
       { datasourceId: 'S2L1C', layerId: '4_NDSI' },
       { datasourceId: 'S2L2A', layerId: '4_NDSI' },
+      { datasourceId: 'S2L1C', layerId: '6-NDSI' },
+      { datasourceId: 'S2L2A', layerId: '6-NDSI' },
     ],
     titles: () => ({
       [EDUCATION_MODE.id]: `NDSI`,
@@ -819,6 +861,8 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: 'WILDFIRES' },
       { datasourceId: 'S2L1C', layerId: 'WILDFIRES-NORMAL-MODE' },
       { datasourceId: 'S2L2A', layerId: 'WILDFIRES-NORMAL-MODE' },
+      { datasourceId: 'S2L1C', layerId: '8-WILDFIRES' },
+      { datasourceId: 'S2L2A', layerId: '8-WILDFIRES' },
     ],
 
     description: () =>
@@ -869,6 +913,10 @@ export const PREDEFINED_LAYERS_METADATA = [
       { datasourceId: 'S2L2A', layerId: 'NORMALIZED-BURN-RATIO-NBR' },
       { datasourceId: 'S2L1C', layerId: 'NORMALIZED-BURN-RATIO' },
       { datasourceId: 'S2L2A', layerId: 'NORMALIZED-BURN-RATIO' },
+      { datasourceId: 'S2L1C', layerId: '6-NBR' },
+      { datasourceId: 'S2L2A', layerId: '6-NBR' },
+      { datasourceId: 'S2L1C', layerId: 'NBR_INDEX' },
+      { datasourceId: 'S2L2A', layerId: 'NBR_INDEX' },
     ],
     legend: {
       type: 'continuous',
@@ -895,6 +943,8 @@ export const PREDEFINED_LAYERS_METADATA = [
     match: [
       { datasourceId: 'S2L1C', layerId: 'ATMOSPHERIC-PENETRATION' },
       { datasourceId: 'S2L2A', layerId: 'ATMOSPHERIC-PENETRATION' },
+      { datasourceId: 'S2L1C', layerId: '3-ATMOSPHERIC-PENETRATION' },
+      { datasourceId: 'S2L2A', layerId: '3-ATMOSPHERIC-PENETRATION' },
     ],
 
     description: () =>
@@ -927,6 +977,8 @@ export const PREDEFINED_LAYERS_METADATA = [
     match: [
       { datasourceId: 'S2L1C', layerId: 'BURNED-AREAS-DETECTION' },
       { datasourceId: 'S2L2A', layerId: 'BURNED-AREAS-DETECTION' },
+      { datasourceId: 'S2L1C', layerId: '4-BURNED-AREA-DETECTION' },
+      { datasourceId: 'S2L2A', layerId: '4-BURNED-AREA-DETECTION' },
     ],
 
     description: () =>
@@ -934,7 +986,10 @@ export const PREDEFINED_LAYERS_METADATA = [
   },
 
   {
-    match: [{ datasourceId: 'S2L2A', layerId: 'SCENE-CLASSIFICATION' }],
+    match: [
+      { datasourceId: 'S2L2A', layerId: 'SCENE-CLASSIFICATION' },
+      { datasourceId: 'S2L2A', layerId: '9-SCENE-CLASSIFICATION-MAP' },
+    ],
 
     legend: {
       type: 'discrete',

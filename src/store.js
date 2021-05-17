@@ -49,7 +49,7 @@ export const mainMapSlice = createSlice({
   initialState: {
     lat: DEFAULT_LAT_LNG.lat,
     lng: DEFAULT_LAT_LNG.lng,
-    zoom: 10,
+    zoom: DEFAULT_LAT_LNG.zoom,
     enabledOverlaysId: ['labels'],
   },
   reducers: {

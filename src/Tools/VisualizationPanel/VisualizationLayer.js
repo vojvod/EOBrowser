@@ -27,6 +27,7 @@ export default class VisualizationLayer extends Component {
   getIconSrc(viz) {
     const { selectedThemeId } = this.props;
     const { instanceId, url } = viz;
+    console.log(instanceId.substr(0, 6));
     const urlHash = instanceId ? instanceId.substr(0, 6) : md5(url).substr(0, 8);
     const filename = `${selectedThemeId}-${urlHash}-${viz.layerId}.png`;
     if (!previews.includes(filename)) {

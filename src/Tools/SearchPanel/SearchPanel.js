@@ -167,7 +167,7 @@ class SearchPanel extends Component {
 
   renderThemeSelect = (isEducationModeSelected = false) => {
     let {
-      user,
+      // user,
       modeThemesList,
       userInstancesThemesList,
       urlThemesList,
@@ -193,17 +193,13 @@ class SearchPanel extends Component {
     return (
       <div className="theme-select top">
         <div className="top-label">
-          {t`Theme`}
           {!isEducationModeSelected && (
             <ExternalLink
               className="configurations-settings"
               href="https://apps.sentinel-hub.com/dashboard/#/configurations"
-            >
-              <i className="fa fa-cog" title={t`Manage configuration instances`} />
-            </ExternalLink>
+            ></ExternalLink>
           )}
         </div>
-        {!user && !isEducationModeSelected && <p>{t`Login to use custom configuration instances.`}</p>}
         <div>
           <select
             className="dropdown"

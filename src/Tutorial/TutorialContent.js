@@ -42,11 +42,7 @@ export const localeNames = {
 const welcomeMd = () => t`# Welcome To EO Browser!
 
 A complete archive of Sentinel-1, Sentinel-2, Sentinel-3, Sentinel-5P, ESA’s  
-archive of Landsat 5, 7 and 8, global coverage of Landsat 8, Envisat Meris,  
-MODIS, Proba-V and GIBS products in one place.
-
-[EO Browser presentation page](https://www.sentinel-hub.com/explore/eobrowser/)  
-[EO Browser user guide](https://www.sentinel-hub.com/explore/eobrowser/user-guide/)`;
+archive of Landsat and MODIS products in one place.`;
 
 const overviewMd = () => t`#### Quick overview of EO Browser features
 
@@ -55,13 +51,13 @@ EO Browser combines a complete archive of Sentinel-1, Sentinel-2, Sentinel-3, Se
 You can continue the tutorial by clicking on the "Next" button or you can close it. By clicking the info icon <span style="background-color: rgb(25, 26, 37); color: rgb(238, 238, 238); padding: 4px 10px;"><i class="fa fa-info" /></span> in the top right corner you can always resume the tutorial in case you closed it by mistake or because you wanted to try things.
 `;
 
-const userAccountMd = () => t`
-**Logged-in users** can use their custom themes, save and load pins, create a pin story, measure distances, create a
-timelapse and use the advanced image download.
+// const userAccountMd = () => t`
+// **Logged-in users** can use their custom themes, save and load pins, create a pin story, measure distances, create a
+// timelapse and use the advanced image download.
 
-To create a free account simply click [here]
-or within the app on **Login** and then "Sign Up".
-`;
+// To create a free account simply click [here]
+// or within the app on **Login** and then "Sign Up".
+// `;
 
 const discoverTabMd = () => t`
 
@@ -132,31 +128,31 @@ You can add all pins to the compare panel using <i className="fa fa-plus-square"
  from the **Compare** tab with the <i className="fa fa-trash" /> **Remove all** button.
 `;
 
-const pinstabMd = () => t`
-The **Pins** tab contains your pinned (favourite/saved) items. Pinned items contain information
-about location, data source and its specific layer, zoom level and time.
+// const pinstabMd = () => t`
+// The **Pins** tab contains your pinned (favourite/saved) items. Pinned items contain information
+// about location, data source and its specific layer, zoom level and time.
 
-For each pin you have several options how to interact with a single pin:
+// For each pin you have several options how to interact with a single pin:
 
-- Change **order** - by clicking on the move icon
-<span style="display: inline-flex; padding-top: 0.05em;">
-  <i class="fa fa-ellipsis-v"/>
-  <i class="fa fa-ellipsis-v"/>
-</span> 
-in the top left corner of the pin and dragging the pin up or down the list.
-- **Rename** - by clicking on the pencil icon <i className="fa fa-pencil" /> next to the pin's name.
-- Add to the **Compare** tab - by clicking on the compare icon <i ClassName="fas fa-exchange-alt" />
-- Enter a **description** - by clicking on the expand icon <i className="fa fa-angle-double-down " />.
-- **Remove** - by clicking the remove icon <i className="fa fa-trash" />.
-- **Zoom** to the pin's location - by clicking on the Lat/Lon.
+// - Change **order** - by clicking on the move icon
+// <span style="display: inline-flex; padding-top: 0.05em;">
+//   <i class="fa fa-ellipsis-v"/>
+//   <i class="fa fa-ellipsis-v"/>
+// </span>
+// in the top left corner of the pin and dragging the pin up or down the list.
+// - **Rename** - by clicking on the pencil icon <i className="fa fa-pencil" /> next to the pin's name.
+// - Add to the **Compare** tab - by clicking on the compare icon <i ClassName="fas fa-exchange-alt" />
+// - Enter a **description** - by clicking on the expand icon <i className="fa fa-angle-double-down " />.
+// - **Remove** - by clicking the remove icon <i className="fa fa-trash" />.
+// - **Zoom** to the pin's location - by clicking on the Lat/Lon.
 
-In the line above all pins you have different options that apply for all pins:
- - Create your own story from pins - by clicking on <i class="fa fa-film"> **Story**.
- - Share your pins with others via a link - by clicking on <i className="fas fa-share-alt"> **Share**.
- - Export pins as a JSON file - by clicking on  <i class="fa fa-cloud-download" /> **Export**.
- - Import pins from a JSON file - by clicking on  <i class="fa fa-cloud-upload" /> **Import**.
- - Delete all pins - by clicking on  <i class="fa fa-trash" /> **Clear**.
-`;
+// In the line above all pins you have different options that apply for all pins:
+//  - Create your own story from pins - by clicking on <i class="fa fa-film"> **Story**.
+//  - Share your pins with others via a link - by clicking on <i className="fas fa-share-alt"> **Share**.
+//  - Export pins as a JSON file - by clicking on  <i class="fa fa-cloud-download" /> **Export**.
+//  - Import pins from a JSON file - by clicking on  <i class="fa fa-cloud-upload" /> **Import**.
+//  - Delete all pins - by clicking on  <i class="fa fa-trash" /> **Clear**.
+// `;
 
 const searchPlacesMd = () => t` Search for a location either by scrolling the map with mouse or enter the location in the search
 field.`;
@@ -165,10 +161,10 @@ const overlaysMd = () => t`
 Here you can select which base layer and overlays (roads, borders, labels) are shown on the map.
 `;
 
-const modesMd = () => t`
-Here you can switch between the **normal** and the **education** mode. The **education** mode offers you a slightly simplified version of the app.
-It can also be accessed directly via its [dedicated URL](https://apps.sentinel-hub.com/eo-browser-education/).
-`;
+// const modesMd = () => t`
+// Here you can switch between the **normal** and the **education** mode. The **education** mode offers you a slightly simplified version of the app.
+// It can also be accessed directly via its [dedicated URL](https://apps.sentinel-hub.com/eo-browser-education/).
+// `;
 
 const tutorialMd = () => t`
 You can view the tutorial anytime by clicking on this info icon
@@ -201,13 +197,13 @@ With this tool you can mark a point on the map.
 </p>
 `;
 
-const measurementMd = () => t`
-With this tool you can measure distances and areas on the map.
+// const measurementMd = () => t`
+// With this tool you can measure distances and areas on the map.
 
-Every mouse click creates a new point on the path. To stop adding points, press <code>Esc</code>  key
-or double click on the map.  
-You can remove the measurement by clicking the remove icon <i class="fa fa-close" />.
-`;
+// Every mouse click creates a new point on the path. To stop adding points, press <code>Esc</code>  key
+// or double click on the map.
+// You can remove the measurement by clicking the remove icon <i class="fa fa-close" />.
+// `;
 
 const downloadImageMd = () => t`
 With this tool you can download an image of visualized data for the displayed location. You can choose
@@ -224,28 +220,27 @@ Before downloading, you can define an area of interest (AOI) by clicking on the 
 icon. Your data will be clipped to match this area.
 `;
 
-const timelapseMd = () => t`
-With this tool you can create a timelapse animation of the visualized layer and displayed location.
+// const timelapseMd = () => t`
+// With this tool you can create a timelapse animation of the visualized layer and displayed location.
 
-First, choose a time range. You can define your search results further by filtering them by months
-(filter by months checkbox) and/or selecting one image per defined period (orbit, day, week, month,
-year).
+// First, choose a time range. You can define your search results further by filtering them by months
+// (filter by months checkbox) and/or selecting one image per defined period (orbit, day, week, month,
+// year).
 
-Then press <span class="btn" style="font-size: 12px; padding: 4px 6px 4px 6px"> <i className="fa fa-search" /> Search </span> and select your images.
-You can select all by checking the checkbox or filter the images by cloud coverage by moving the slider. Or you can pick images one by
-one by scrolling through the list and selecting them. Via the **Borders** checkbox you can enable/disable the borders on your image.
+// Then press <span class="btn" style="font-size: 12px; padding: 4px 6px 4px 6px"> <i className="fa fa-search" /> Search </span> and select your images.
+// You can select all by checking the checkbox or filter the images by cloud coverage by moving the slider. Or you can pick images one by
+// one by scrolling through the list and selecting them. Via the **Borders** checkbox you can enable/disable the borders on your image.
 
-You can preview the timelapse by pressing the play button on the bottom. You can also set the speed
-(frames per second).
+// You can preview the timelapse by pressing the play button on the bottom. You can also set the speed
+// (frames per second).
 
-When you are satisfied with the result, click the download button and the timelapse will be
-downloaded as a <code>.gif</code> file.
-`;
+// When you are satisfied with the result, click the download button and the timelapse will be
+// downloaded as a <code>.gif</code> file.
+// `;
 
 const happyBrowsingMd = () => t`
 
-You have reached the end of the tutorial. If you have any other question, feel free to ask us on [the forum](https://forum.sentinel-hub.com/)
-or contact us [via email](mailto:info@sentinel-hub.com?Subject=EO%20Browser%20Feedback).
+You have reached the end of the tutorial. If you have any other question, feel free to contact us [via email](mailto:info@getmap.gr.com?Subject=EO%20Browser%20Feedback).
 
 
 If you want to view the tutorial in the future you can always view it by clicking the info icon
@@ -298,26 +293,26 @@ export const TUTORIAL_STEPS = () => [
     styles: tutorialStyles,
     locale: localeNames,
   },
-  {
-    title: t`User Account`,
-    content: (
-      <div className="content-div-style">
-        <ReactMarkdown
-          source={userAccountMd()}
-          escapeHtml={false}
-          linkTarget="_blank"
-          transformLinkUri={() =>
-            `${process.env.REACT_APP_AUTH_BASEURL}oauth/subscription?origin=EOBrowser&param_client_id=${process.env.REACT_APP_CLIENTID}`
-          }
-        />
-      </div>
-    ),
-    target: '.user-panel',
-    placement: 'right',
-    disableBeacon: true,
-    styles: tutorialStyles,
-    locale: localeNames,
-  },
+  // {
+  //   title: t`User Account`,
+  //   content: (
+  //     <div className="content-div-style">
+  //       <ReactMarkdown
+  //         source={userAccountMd()}
+  //         escapeHtml={false}
+  //         linkTarget="_blank"
+  //         transformLinkUri={() =>
+  //           `${process.env.REACT_APP_AUTH_BASEURL}oauth/subscription?origin=EOBrowser&param_client_id=${process.env.REACT_APP_CLIENTID}`
+  //         }
+  //       />
+  //     </div>
+  //   ),
+  //   target: '.user-panel',
+  //   placement: 'right',
+  //   disableBeacon: true,
+  //   styles: tutorialStyles,
+  //   locale: localeNames,
+  // },
   {
     title: t`Discover Tab`,
     content: (
@@ -357,19 +352,19 @@ export const TUTORIAL_STEPS = () => [
     styles: tutorialStyles,
     locale: localeNames,
   },
-  {
-    title: t`Pins Tab`,
-    content: (
-      <div className="content-div-style">
-        <ReactMarkdown source={pinstabMd()} escapeHtml={false} linkTarget="_blank" />
-      </div>
-    ),
-    target: '#pins-tabButton',
-    placement: 'right',
-    disableBeacon: true,
-    styles: tutorialStyles,
-    locale: localeNames,
-  },
+  // {
+  //   title: t`Pins Tab`,
+  //   content: (
+  //     <div className="content-div-style">
+  //       <ReactMarkdown source={pinstabMd()} escapeHtml={false} linkTarget="_blank" />
+  //     </div>
+  //   ),
+  //   target: '#pins-tabButton',
+  //   placement: 'right',
+  //   disableBeacon: true,
+  //   styles: tutorialStyles,
+  //   locale: localeNames,
+  // },
   {
     title: t`Search Places`,
     content: (
@@ -397,19 +392,19 @@ export const TUTORIAL_STEPS = () => [
     styles: tutorialStyles,
     locale: localeNames,
   },
-  {
-    title: t`Education Mode`,
-    content: (
-      <div className="content-div-style">
-        <ReactMarkdown source={modesMd()} escapeHtml={false} linkTarget="_blank" />
-      </div>
-    ),
-    target: '.mode-selection',
-    placement: 'bottom',
-    disableBeacon: true,
-    styles: tutorialStyles,
-    locale: localeNames,
-  },
+  // {
+  //   title: t`Education Mode`,
+  //   content: (
+  //     <div className="content-div-style">
+  //       <ReactMarkdown source={modesMd()} escapeHtml={false} linkTarget="_blank" />
+  //     </div>
+  //   ),
+  //   target: '.mode-selection',
+  //   placement: 'bottom',
+  //   disableBeacon: true,
+  //   styles: tutorialStyles,
+  //   locale: localeNames,
+  // },
 
   {
     title: t`Information And Tutorial`,
@@ -450,19 +445,19 @@ export const TUTORIAL_STEPS = () => [
     styles: tutorialStyles,
     locale: localeNames,
   },
-  {
-    title: t`Measure Distances`,
-    content: (
-      <div className="content-div-style">
-        <ReactMarkdown source={measurementMd()} escapeHtml={false} linkTarget="_blank" />
-      </div>
-    ),
-    target: '.measurePanel',
-    placement: 'left',
-    disableBeacon: true,
-    styles: tutorialStyles,
-    locale: localeNames,
-  },
+  // {
+  //   title: t`Measure Distances`,
+  //   content: (
+  //     <div className="content-div-style">
+  //       <ReactMarkdown source={measurementMd()} escapeHtml={false} linkTarget="_blank" />
+  //     </div>
+  //   ),
+  //   target: '.measurePanel',
+  //   placement: 'left',
+  //   disableBeacon: true,
+  //   styles: tutorialStyles,
+  //   locale: localeNames,
+  // },
   {
     title: t`Download Image`,
     content: (
@@ -476,19 +471,19 @@ export const TUTORIAL_STEPS = () => [
     styles: tutorialStyles,
     locale: localeNames,
   },
-  {
-    title: t`Create Timelapse Animation`,
-    content: (
-      <div className="content-div-style">
-        <ReactMarkdown source={timelapseMd()} escapeHtml={false} linkTarget="_blank" />
-      </div>
-    ),
-    target: '.timelapsePanelButton',
-    placement: 'left',
-    disableBeacon: true,
-    styles: tutorialStyles,
-    locale: localeNames,
-  },
+  // {
+  //   title: t`Create Timelapse Animation`,
+  //   content: (
+  //     <div className="content-div-style">
+  //       <ReactMarkdown source={timelapseMd()} escapeHtml={false} linkTarget="_blank" />
+  //     </div>
+  //   ),
+  //   target: '.timelapsePanelButton',
+  //   placement: 'left',
+  //   disableBeacon: true,
+  //   styles: tutorialStyles,
+  //   locale: localeNames,
+  // },
   {
     title: t`Happy Browsing!`,
     content: (

@@ -35,7 +35,7 @@
         color: #fff;
         border-radius: 0;
         border: none;
-        margin-right: 110px;
+        margin-right: 60px;
         box-shadow: $boxShadow;
 
         .leaflet-control-layers-toggle {
@@ -72,7 +72,7 @@
   position: relative;
   z-index: 401;
   float: right;
-  margin-right: 160px;
+  margin-right: 110px;
   margin-top: 10px;
   display: flex;
   align-items: center;
@@ -97,6 +97,14 @@
   cursor: pointer;
 }
 /* stylelint-enable */
+
+.measure-wrapper{
+  display: none;
+}
+
+.timelapse-wrapper {
+  display: none;
+}
 
 .rodal {
   z-index: 9999;

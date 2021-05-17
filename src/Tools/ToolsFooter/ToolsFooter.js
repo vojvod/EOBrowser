@@ -31,7 +31,7 @@ class ToolsFooter extends Component {
             <img src={esaLogo} alt="ESA" />
           </ExternalLink>
         </div>
-        <div className="footer-version">
+        <div className="footer-version" style={{ display: 'none' }}>
           {VERSION_INFO.tag ? (
             VERSION_INFO.tag
           ) : VERSION_INFO.commit ? (

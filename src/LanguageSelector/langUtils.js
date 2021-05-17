@@ -5,10 +5,10 @@ export const LOCAL_STORAGE_KEY = 'eobrowser_lang';
 export const DEFAULT_LANG = 'en';
 export const SUPPORTED_LANGUAGES = [
   { langCode: 'en', text: 'English', flagCode: 'GB' },
-  { langCode: 'de', text: 'Deutsch', flagCode: 'DE' },
-  { langCode: 'es', text: 'español', flagCode: 'ES' },
+  // { langCode: 'de', text: 'Deutsch', flagCode: 'DE' },
+  // { langCode: 'es', text: 'español', flagCode: 'ES' },
   { langCode: 'el', text: 'ελληνικά', flagCode: 'GR' },
-  { langCode: 'pl', text: 'polski', flagCode: 'PL' },
+  // { langCode: 'pl', text: 'polski', flagCode: 'PL' },
 ];
 
 export const changeLanguage = locale => {
