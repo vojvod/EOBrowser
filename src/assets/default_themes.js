@@ -183,95 +183,38 @@ export const DEFAULT_THEMES = [
       {
         name: 'Sentinel-1',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/86b9d36d-2445-421f-972f-d11e59b4c671',
+        url: 'https://services.sentinel-hub.com/ogc/wms/a6e88d37-72b0-408e-b75c-13f9488845d5',
       },
-      // {
-      //   name: 'Sentinel-1 AWS EW HH+HV',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/694b409a-e12b-4922-8d51-c28dc12c8474',
-      // },
-      // {
-      //   name: 'Sentinel-1 AWS IW VV',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/11888584-b337-4287-b65e-208b80fd779b',
-      // },
-      // {
-      //   name: 'Sentinel-1 AWS IW VV+VH',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/f2068f4f-3c75-42cf-84a1-42948340a846',
-      // },
-
       {
         name: 'Sentinel-2 L1C',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/348d603d-5ee8-48e5-9931-14cf6e3ddea0',
+        url: 'https://services.sentinel-hub.com/ogc/wms/0f8098c8-44d0-4d8b-8f57-e70409d6f5f3',
         layersExclude: '/^B[0-9][0-9A]/i',
       },
       {
         name: 'Sentinel-2 L2A',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/96fbe0b8-a41d-4f4e-8e92-b79ae279ce45',
+        url: 'https://services.sentinel-hub.com/ogc/wms/6bd3b7fd-a398-483d-bd2f-230fea062bc0',
         preselected: true,
         layersExclude: '/^B[0-9][0-9A]/i',
       },
       {
         name: 'Sentinel-3 SLSTR',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/b0be9d8e-03a5-4e68-a93a-ca3d256d4bfb',
+        url: 'https://creodias.sentinel-hub.com/ogc/wms/49af9d72-c431-4eb7-9b8b-079701bf78ac',
       },
       {
         name: 'Sentinel-3 OLCI',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/a5041dce-64b5-4b02-80c9-2538a710a1d4',
+        url: 'https://creodias.sentinel-hub.com/ogc/wms/548bb761-b499-4df0-9897-25876d9f69bd',
         preselected: true,
         layersExclude: '/^B[0-9][0-9A]/i',
       },
       {
         name: 'Sentinel-5P',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/5c7795bd-7b58-4dc5-a659-e2d9db32e9b6',
+        url: 'https://services.sentinel-hub.com/ogc/wms/4f177c79-ea7c-4956-a5f9-2de953554e66',
       },
-      // {
-      //   name: 'Landsat 8 USGS',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/ca5c8dc4-258e-490c-bf64-ff3498057368',
-      //   preselected: true,
-      //   layersExclude: '/^B[0-9][0-9A]/i',
-      // },
-      // {
-      //   name: 'MODIS',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/b719a6ad-d135-42df-bf7c-f794b2d99b4c',
-      //   layersExclude: '/^B[0-9][0-9A]/i',
-      // },
-      // {
-      //   name: 'DEM MAPZEN_EU',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/7ffc45f2-61f3-4c4d-b7eb-13cce1633d81',
-      //   preselected: true,
-      // },
-      // {
-      //   name: 'DEM COPERNICUS_30',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/6448ffd0-56c5-4601-bed7-242bf75d97db',
-      // },
-      // {
-      //   name: 'DEM COPERNICUS_90',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/bdf8d9c4-bebe-4002-8252-bd4b3f06d76a',
-      // },
-      // {
-      //   name: 'CORINE Land Cover',
-      //   url: 'https://creodias.sentinel-hub.com/ogc/wms/5da777d3-e322-468c-b7b5-4c90437d9946',
-      // },
-      // {
-      //   name: 'Global Land Cover',
-      //   url: 'https://creodias.sentinel-hub.com/ogc/wms/968dcdec-a419-4894-bba2-0b21670b8a22',
-      // },
-      // {
-      //   name: 'Water Bodies',
-      //   url: 'https://creodias.sentinel-hub.com/ogc/wms/6630abc2-b00c-46af-b2cd-2fcb8574ff2e',
-      // },
     ],
   },
 

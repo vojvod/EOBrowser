@@ -1,7 +1,7 @@
 {
   "name": "eobrowser3",
   "version": "3.0.0",
-  "homepage": "http://gis.crete.gov.gr/sdi/eobrowser/",
+  "homepage": "https://agrinio.getmap.gr/sdi/eobrowser/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",

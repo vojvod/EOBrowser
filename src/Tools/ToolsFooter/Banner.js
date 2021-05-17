@@ -16,8 +16,8 @@ export default class Banner extends React.Component {
 
     return (
       <div className="footer-banner">
-        <ExternalLink className="banner-link" href="http://gis.crete.gov.gr/">
-          <img src={banner} alt="gis.crete.gov.gr" className="banner-img" />
+        <ExternalLink className="banner-link" href="https://agrinio.getmap.gr/">
+          <img src={banner} alt="agrinio.getmap.gr" className="banner-img" />
         </ExternalLink>
       </div>
     );
