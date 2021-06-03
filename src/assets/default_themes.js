@@ -231,6 +231,11 @@ export const DEFAULT_THEMES = [
         service: 'WMS',
         url: 'https://services.sentinel-hub.com/ogc/wms/5c7795bd-7b58-4dc5-a659-e2d9db32e9b6',
       },
+      {
+        name: 'Ταυρωνίτης',
+        service: 'WMS',
+        url: 'https://services.sentinel-hub.com/ogc/wms/9e06e1b9-d0c4-4814-af53-475ea665cf1c',
+      },
       // {
       //   name: 'Landsat 8 USGS',
       //   service: 'WMS',
