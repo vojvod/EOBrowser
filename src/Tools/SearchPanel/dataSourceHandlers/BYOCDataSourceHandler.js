@@ -157,7 +157,9 @@ export default class BYOCDataSourceHandler extends DataSourceHandler {
   }
 
   getLayers = (data, datasetId, url, layersExclude, layersInclude) => {
-    let layers = data.filter(layer => layer.collectionId === datasetId && filterLayers(layer.layerId));
+    let layers = data.filter(
+      layer => layer.collectionId === datasetId && filterLayers(layer.layerId, layersExclude, layersInclude),
+    );
     layers.forEach(l => {
       l.url = url;
     });

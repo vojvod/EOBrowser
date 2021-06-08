@@ -234,7 +234,7 @@ export const DEFAULT_THEMES = [
       {
         name: 'Ταυρωνίτης',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/9e06e1b9-d0c4-4814-af53-475ea665cf1c',
+        url: 'https://services.sentinel-hub.com/ogc/wms/af788f6d-92c8-4f1d-894f-d828c436a85b',
       },
       // {
       //   name: 'Landsat 8 USGS',

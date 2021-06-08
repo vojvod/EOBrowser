@@ -2,6 +2,22 @@ const SHADOW_LAYERS_START = '__';
 const CACHE_REGEXP_LAYERS_FILTER = {};
 
 export const filterLayers = (layerId, layersExclude, layersInclude) => {
+  const exclude = [
+    'PLEIADES-FALSE-COLOR-14052021',
+    'PLEIADES-FALSE-COLOR-20190326',
+    'PLEIADES-NDVI-PAN-SHARPENED-14052021',
+    'PLEIADES-NDVI-PAN-SHARPENED-20190326',
+    'PLEIADES-PAN-SHARPENED-14052021',
+    'PLEIADES-PAN-SHARPENED-20190326',
+    'TAVRONITIS-WORLDVIEW-FALSE-COLOR-21022019',
+    'TAVRONITIS-WORLDVIEW-NDVI-21022019',
+    'TAVRONITIS-WORLDVIEW-PAN-SHARPENED-21022019',
+  ];
+
+  if (exclude.includes(layerId)) {
+    return false;
+  }
+
   if (layerId.startsWith(SHADOW_LAYERS_START)) {
     return false;
   }
