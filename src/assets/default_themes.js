@@ -232,7 +232,7 @@ export const DEFAULT_THEMES = [
         url: 'https://services.sentinel-hub.com/ogc/wms/5c7795bd-7b58-4dc5-a659-e2d9db32e9b6',
       },
       {
-        name: 'Ταυρωνίτης',
+        name: 'Εμπορικά δεδομένα Υψηλής Ανάλυσης',
         service: 'WMS',
         url: 'https://services.sentinel-hub.com/ogc/wms/af788f6d-92c8-4f1d-894f-d828c436a85b',
       },
