@@ -156,7 +156,7 @@ class Map extends React.Component {
         ])}
         maxBoundsViscosity={1.0}
         onViewportChanged={this.updateViewport}
-        center={[this.props.lat, this.props.lng]}
+        center={process.env.REACT_APP_MAP_CENTER.split(',')}
         zoom={this.props.zoom}
         onMoveEnd={this.setBounds}
         whenReady={this.setBounds}

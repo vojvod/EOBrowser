@@ -28,12 +28,12 @@ class HeaderWithLogin extends Component {
             <i className="fa fa-chevron-left" />
           </div>
           <div className="app-title">
-            <ExternalLink className="sgLogo" href="https://agrinio.getmap.gr/">
-              <img src={sgLogo} alt="agrinio.getmap.gr" />
+            <ExternalLink className="sgLogo" href="https://piraeus.gov.gr/">
+              <img src={sgLogo} alt="piraeus.gov.gr" />
             </ExternalLink>
             <span>
               EO Browser
-              <div className="replace-services-hostname">ΔΗΜΟΣ ΑΓΡΙΝΙΟΥ</div>
+              <div className="replace-services-hostname">ΔΗΜΟΣ ΠΕΙΡΑΙΑ</div>
             </span>
           </div>
         </div>
