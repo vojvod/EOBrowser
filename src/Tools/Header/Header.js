@@ -32,7 +32,7 @@ class HeaderWithLogin extends Component {
               <img src={sgLogo} alt="agrinio.getmap.gr" />
             </ExternalLink>
             <span>
-              EO Browser
+              Εφαρμογή Ανάλυσης
               <div className="replace-services-hostname">ΔΗΜΟΣ ΑΓΡΙΝΙΟΥ</div>
             </span>
           </div>

@@ -34,3 +34,26 @@ body,
     width: 300px !important;
   }
 }
+
+#map .leaflet-control-container .leaflet-bottom.leaflet-right .leaflet-control-zoom {
+  border: none;
+  bottom: 60px;
+}
+
+#map .leaflet-control-container .leaflet-bottom.leaflet-right .leaflet-control-scale {
+  margin-bottom: 0;
+  bottom: 60px;
+}
+
+#map .leaflet-control-container .leaflet-bottom.leaflet-right .leaflet-control-map-coordinates {
+  display: block;
+  margin-bottom: 0;
+  clear: unset;
+  font-size: 10px;
+  background: #101119;
+  color: #eee;
+  padding: 1px;
+  min-width: 160px;
+  text-align: center;
+  bottom: 60px;
+}
