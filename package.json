@@ -1,7 +1,7 @@
 {
   "name": "eobrowser3",
   "version": "3.0.0",
-  "homepage": "https://satellite.agrinio.gov.gr/eobrowser/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",

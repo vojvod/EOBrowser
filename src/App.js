@@ -20,8 +20,6 @@ import { EDUCATION_MODE, MODES } from './const';
 
 import './App.scss';
 
-import espa from './espa.jpg';
-
 const ALL_DEFAULT_THEMES = MODES.map(mode => mode.themes).flat();
 
 class App extends Component {
@@ -114,11 +112,6 @@ class App extends Component {
     const authenticated = Boolean(authToken);
     return (
       <div id="app">
-        <img
-          src={espa}
-          style={{ position: 'absolute', zIndex: 600, height: '60px', bottom: 0, right: 0 }}
-          alt="espa"
-        />
         <Map
           setSelectedTiles={this.setSelectedTiles}
           query={this.state.query}
