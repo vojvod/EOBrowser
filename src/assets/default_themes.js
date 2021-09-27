@@ -186,12 +186,12 @@ export const DEFAULT_THEMES = [
         service: 'WMS',
         url: 'https://services.sentinel-hub.com/ogc/wms/86c01e5d-ba4b-4207-a806-0978e6aa6761',
       },
-      // {
-      //   name: 'Sentinel-2 L1C',
-      //   service: 'WMS',
-      //   url: 'https://services.sentinel-hub.com/ogc/wms/6a5f97d5-6eba-48e1-8035-95290cfb4dfc',
-      //   layersExclude: '/^B[0-9][0-9A]/i',
-      // },
+      {
+        name: 'Sentinel-2 L1C',
+        service: 'WMS',
+        url: 'https://services.sentinel-hub.com/ogc/wms/6a5f97d5-6eba-48e1-8035-95290cfb4dfc',
+        layersExclude: '/^B[0-9][0-9A]/i',
+      },
       {
         name: 'Sentinel-2 L2A',
         service: 'WMS',
