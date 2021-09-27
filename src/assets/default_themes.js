@@ -148,22 +148,22 @@ const EDUCATION_THEMES = [
   //     },
   //   ],
   //   pins: [
-      // {
-      //   title: 'Φωτιά στα Σκουτερά Αγρινίου',
-      //   lat: 38.69636,
-      //   lng: 21.44617,
-      //   zoom: 13,
-      //   datasetId: 'S2L2A',
-      //   layerId: '2-FALSE-COLOR',
-      //   visualizationUrl: 'https://services.sentinel-hub.com/ogc/wms/6a0ef6b2-a5b1-4a86-aead-f92c96444113',
-      //   toTime: '2019-09-16',
-      //   evalscript: '',
-      //   evalscripturl: '',
-      //   themeId: 'WILDFIRES-NORMAL-MODE',
-      //   description:
-      //     'O αλγόριθμος χρησιμοποιείται για τον εντοπισμό περιοχής στα Σκουτερά Αγρινίου που κάηκε στις 6-9-2019. Τα κόκκινα εικονοστοιχεία απεικονίζουν καμένες περιοχές και όλα τα άλλα εικονοστοιχεία απεικονίζονται σε φυσικό χρώμα.',
-      // },
-    // ],
+  // {
+  //   title: 'Φωτιά στα Σκουτερά Αγρινίου',
+  //   lat: 38.69636,
+  //   lng: 21.44617,
+  //   zoom: 13,
+  //   datasetId: 'S2L2A',
+  //   layerId: '2-FALSE-COLOR',
+  //   visualizationUrl: 'https://services.sentinel-hub.com/ogc/wms/6a0ef6b2-a5b1-4a86-aead-f92c96444113',
+  //   toTime: '2019-09-16',
+  //   evalscript: '',
+  //   evalscripturl: '',
+  //   themeId: 'WILDFIRES-NORMAL-MODE',
+  //   description:
+  //     'O αλγόριθμος χρησιμοποιείται για τον εντοπισμό περιοχής στα Σκουτερά Αγρινίου που κάηκε στις 6-9-2019. Τα κόκκινα εικονοστοιχεία απεικονίζουν καμένες περιοχές και όλα τα άλλα εικονοστοιχεία απεικονίζονται σε φυσικό χρώμα.',
+  // },
+  // ],
   // },
 ];
 
@@ -184,37 +184,37 @@ export const DEFAULT_THEMES = [
       {
         name: 'Sentinel-1',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/a6e88d37-72b0-408e-b75c-13f9488845d5',
+        url: 'https://services.sentinel-hub.com/ogc/wms/86c01e5d-ba4b-4207-a806-0978e6aa6761',
       },
-      {
-        name: 'Sentinel-2 L1C',
-        service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/0f8098c8-44d0-4d8b-8f57-e70409d6f5f3',
-        layersExclude: '/^B[0-9][0-9A]/i',
-      },
+      // {
+      //   name: 'Sentinel-2 L1C',
+      //   service: 'WMS',
+      //   url: 'https://services.sentinel-hub.com/ogc/wms/6a5f97d5-6eba-48e1-8035-95290cfb4dfc',
+      //   layersExclude: '/^B[0-9][0-9A]/i',
+      // },
       {
         name: 'Sentinel-2 L2A',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/6bd3b7fd-a398-483d-bd2f-230fea062bc0',
+        url: 'https://services.sentinel-hub.com/ogc/wms/52e0148d-82e8-486b-975a-09986f268980',
         preselected: true,
         layersExclude: '/^B[0-9][0-9A]/i',
       },
       {
         name: 'Sentinel-3 SLSTR',
         service: 'WMS',
-        url: 'https://creodias.sentinel-hub.com/ogc/wms/49af9d72-c431-4eb7-9b8b-079701bf78ac',
+        url: 'https://creodias.sentinel-hub.com/ogc/wms/44f00924-dc7f-42e8-b999-6d8a8378b587',
       },
       {
         name: 'Sentinel-3 OLCI',
         service: 'WMS',
-        url: 'https://creodias.sentinel-hub.com/ogc/wms/548bb761-b499-4df0-9897-25876d9f69bd',
+        url: 'https://creodias.sentinel-hub.com/ogc/wms/fa595ff9-735d-4c33-8360-bf0ebd10957b',
         preselected: true,
         layersExclude: '/^B[0-9][0-9A]/i',
       },
       {
         name: 'Sentinel-5P',
         service: 'WMS',
-        url: 'https://services.sentinel-hub.com/ogc/wms/4f177c79-ea7c-4956-a5f9-2de953554e66',
+        url: 'https://services.sentinel-hub.com/ogc/wms/b5aed8e5-90c5-43ca-b774-c4f700277d7e',
       },
       {
         name: 'Εμπορικά δεδομένα Υψηλής Ανάλυσης',

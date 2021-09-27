@@ -32,7 +32,7 @@ class HeaderWithLogin extends Component {
               <img src={sgLogo} alt="piraeus.gov.gr" />
             </ExternalLink>
             <span>
-              EO Browser
+              Εφαρμογή Αναζήτησης
               <div className="replace-services-hostname">ΔΗΜΟΣ ΠΕΙΡΑΙΑ</div>
             </span>
           </div>

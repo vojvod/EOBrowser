@@ -1,7 +1,7 @@
 {
   "name": "eobrowser3",
   "version": "3.0.0",
-  "homepage": "https://demo.getmap.gr/eobrowser-piraeus/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
