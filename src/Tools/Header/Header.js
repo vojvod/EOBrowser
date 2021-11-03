@@ -33,7 +33,7 @@ class HeaderWithLogin extends Component {
             </ExternalLink>
             <span>
               Εφαρμογή Ανάλυσης
-              <div className="replace-services-hostname">ΔΗΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ</div>
+              <div className="replace-services-hostname">ΔΗΜΟΣ ΗΡΑΚΛΕΙΟΥ</div>
             </span>
           </div>
         </div>
