@@ -10,7 +10,7 @@ export default function AnonymousAuth({ setAnonToken }) {
     async function getToken() {
       const { data } = await axios({
         method: 'post',
-        url: 'eobrowser.php',
+        url: 'http://localhost.c/eobrowser.php',
         headers: { 'content-type': 'application/x-www-form-urlencoded' },
       });
       setAnonToken(data.access_token);
