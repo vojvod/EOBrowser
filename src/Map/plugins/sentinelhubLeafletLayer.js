@@ -69,6 +69,7 @@ class SentinelHubLayer extends L.TileLayer {
     const defaultOptions = {
       tileSize: 512,
       format: MimeTypes.JPEG,
+      // opacity: options.url.includes('76aca887') ? 0.5 : 1,
       attribution: '&copy; <a href="https://www.sentinel-hub.com" target="_blank">Sentinel Hub</a>',
       preview: 2,
       transparent: true,
