@@ -31,6 +31,8 @@ import TimelapseAreaPreview from '../Controls/Timelapse/TimelapseAreaPreview';
 import { DEFAULT_ZOOM_CONFIGURATION } from '../Tools/SearchPanel/dataSourceHandlers/DataSourceHandler';
 import MaptilerLogo from './maptiler-logo-adaptive.svg';
 
+import espa from './logoall.png';
+
 const BASE_PANE_ID = 'baseMapPane';
 const BASE_PANE_ZINDEX = 5;
 const SENTINELHUB_LAYER_PANE_ID = 'sentinelhubPane';
@@ -394,6 +396,13 @@ class Map extends React.Component {
         <a href="https://www.maptiler.com/" target="_blank" rel="noopener noreferrer">
           <img className="maptiler-logo" src={MaptilerLogo} alt="" />
         </a>
+
+        <img
+          src={espa}
+          alt="Logo"
+          style={{ position: 'absolute', zIndex: 1000, bottom: 0, right: 0 }}
+          height="90"
+        />
       </LeafletMap>
     );
   }

@@ -28,6 +28,7 @@
     .leaflet-bottom.leaflet-right {
       .leaflet-control-zoom {
         border: none;
+        bottom: 100px;
 
         a {
           padding-right: 2px;
@@ -61,6 +62,7 @@
 
       .leaflet-control-scale {
         margin-bottom: 0;
+        bottom: 100px;
 
         .leaflet-control-scale-line {
           background: $mainDark;
@@ -91,6 +93,7 @@
         padding: 1px;
         min-width: 160px;
         text-align: center;
+        bottom: 100px;
       }
 
       .leaflet-control-map-coordinates.no-coordinates {
